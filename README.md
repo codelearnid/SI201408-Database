@@ -3,10 +3,7 @@
 
 Ini merupakan materi terkait Matakuliah Database atau Basis Data
 Dosen Pengampu :
-
-
 *Arif Wicaksono Septyanto, S.Kom., M.Kom*
-*arif.wicaksono@lecturer.itk.ac.id*
 
 Referensi yang digunakan :
 - [	S. Bagui, R. Earp, 2023] - 	Database Design Using Entity-Relationship Diagrams
