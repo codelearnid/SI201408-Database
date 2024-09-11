@@ -1,4 +1,4 @@
-# Kerjakan Soal Terkait Materi Minggu 1 - 2
+# Kerjakan Soal Terkait Materi Minggu 3
 
 Dosen pengampu *Arif Wicaksono Septyanto, M.Kom*
 
