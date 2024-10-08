@@ -24,7 +24,7 @@ MariaDB [(none)]> CREATE DATABASE kampus;
 Query OK, 1 row affected (0.001 sec)
 ```
 
-1. Pilih database kampus
+2. Pilih database kampus
 
 ```sql
 MariaDB [(none)]> USE kampus;
