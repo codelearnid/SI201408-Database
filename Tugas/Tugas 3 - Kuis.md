@@ -1,19 +1,22 @@
-## Kerjakan Soal Terkait Materi Minggu 6
+## Kerjakan Soal Terkait Materi Minggu Ke 5-6
 
 Dosen pengampu *Arif Wicaksono Septyanto, M.Kom*
 
-Indikator penilaian : 
+Indikator penilaian :
+
 - Ketepatan mahasiswa memahami dan menggunakan SQL
 
 Soal :
 
 1. Database perpustakaan
-Buatkan database perpustakaan yang berisi tabel mahasiswa, buku, dosen, dan peminjaman menggunakan perintah SQL :
+   Buatkan database perpustakaan yang berisi tabel mahasiswa, buku, dosen, dan peminjaman menggunakan perintah SQL :
+
 ```sql
 CREATE DATABASE perpustakaan;
 ```
 
 Buatkan tabel mahasiswa :
+
 ```sql
 CREATE TABLE mahasiswa (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -25,6 +28,7 @@ CREATE TABLE mahasiswa (
 ```
 
 Buatkan tabel buku :
+
 ```sql
 CREATE TABLE buku (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -36,6 +40,7 @@ CREATE TABLE buku (
 ```
 
 Buatkan tabel dosen :
+
 ```sql
 CREATE TABLE dosen (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -46,6 +51,7 @@ CREATE TABLE dosen (
 ```
 
 Buatkan tabel peminjaman :
+
 ```sql
 CREATE TABLE peminjaman (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -59,7 +65,9 @@ CREATE TABLE peminjaman (
     FOREIGN KEY (id_dosen) REFERENCES dosen(id)
 );
 ```
+
 insert data mahasiswa:
+
 ```sql
 INSERT INTO mahasiswa (nama, nim, jurusan, tahun_masuk) VALUES
 ('Ahmad Firdaus', '20190001', 'Teknik Informatika', 2019),
@@ -85,6 +93,7 @@ INSERT INTO mahasiswa (nama, nim, jurusan, tahun_masuk) VALUES
 ```
 
 insert data buku :
+
 ```sql
 INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit) VALUES
 ('Pemrograman Web untuk Pemula', 'Ahmad Zulkarnain', 'Pustaka Teknologi', 2019),
@@ -110,6 +119,7 @@ INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit) VALUES
 ```
 
 insert data dosen :
+
 ```sql
 INSERT INTO dosen (nama, nip, jurusan) VALUES
 ('Dr. Ahmad Fadli', '19780001', 'Teknik Informatika'),
@@ -135,6 +145,7 @@ INSERT INTO dosen (nama, nip, jurusan) VALUES
 ```
 
 input data peminjam buku :
+
 ```sql
 INSERT INTO peminjaman (id_mahasiswa, id_buku, id_dosen, tanggal_pinjam, tanggal_kembali) VALUES
 (1, 3, 2, '2024-01-10', '2024-01-17'),
